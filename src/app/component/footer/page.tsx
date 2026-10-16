@@ -11,7 +11,7 @@ const FooterPage = () => {
       <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-white/80">
         {/* Copyright Text */}
         <div>
-          <p className="text-sm md:text-base font-normal tracking-wide">
+          <p className="text-sm md:text-base font-light tracking-wide">
             2024 - Soni kumari, All rights reserved
           </p>
         </div>

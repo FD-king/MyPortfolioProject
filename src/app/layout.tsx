@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={josefinSans.className}>
+    <html lang="en" className={`${josefinSans.className} scroll-smooth`}>
       <body className="min-h-screen bg-[#100425] text-white">{children}</body>
     </html>
   );
