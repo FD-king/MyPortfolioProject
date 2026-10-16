@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const ProjectsPage = () => {
   return (
@@ -25,10 +25,10 @@ const ProjectsPage = () => {
           {/* Left Content */}
           <div className="w-full lg:w-7/12 z-20 flex flex-col items-start">
             <span className="text-xs uppercase tracking-[0.2em] text-[#5DFFFF] font-semibold mb-2">
-              Featured Project
+              SEO
             </span>
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Example Project
+              Google Search Console Work
             </h3>
 
             {/* Description Box with /Rectangle_10.1.png Background (Overlapping Image) */}
@@ -40,31 +40,34 @@ const ProjectsPage = () => {
                 className="object-cover -z-10"
               />
               <p className="text-white/80 text-base leading-relaxed relative z-10">
-                A web app for visualizing personalized Spotify data. View your
-                top artists, top tracks, recently played tracks, and detailed
-                audio information about each track. Create and save new
-                playlists of recommended tracks based on your existing playlists
-                and more.
+                ✅Why Use the Google Search Console (GSC)? <br /> <br />
+                Google Search Console helps you improve search ranking for most
+                of your websites. It is also a useful tool for expanding your
+                websites, as it provides the keywords used by real users in
+                search engines. This helps in identifying content that your
+                website may have missed, thus improving overall content
+                availability.
               </p>
             </div>
 
             <div className="flex items-center gap-6 mt-6 text-xl text-white">
               <a
-                href="#"
-                aria-label="GitHub"
+                href="https://www.facebook.com/begumswapnasayma"
+                aria-label="Facebook"
                 className="hover:text-[#5DFFFF] transition-colors"
               >
-                <FaGithub />
+                <FaFacebook />
               </a>
               <a
-                href="#"
+                href="https://x.com/swapnabegum_"
+                target="_blank"
                 aria-label="Twitter"
                 className="hover:text-[#5DFFFF] transition-colors"
               >
                 <FaTwitter />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/feed/update/urn:li:activity:7144544296652709888/"
                 aria-label="LinkedIn"
                 className="hover:text-[#5DFFFF] transition-colors"
               >
@@ -89,7 +92,7 @@ const ProjectsPage = () => {
               {/* Main project screenshot extending over bottom-right corner */}
               <div className="absolute bottom-0 right-0 w-[96%] h-[94%] rounded-xl overflow-hidden border border-white/15 shadow-2xl">
                 <Image
-                  src="/Gemini_Generated_Image_vnf4tdvnf4tdvnf4.png"
+                  src="/1703392098016.jpg"
                   alt="Featured Project"
                   fill
                   className="object-cover"
@@ -104,10 +107,10 @@ const ProjectsPage = () => {
           {/* Right Content */}
           <div className="w-full lg:w-7/12 z-20 flex flex-col items-start lg:items-end text-left lg:text-right">
             <span className="text-xs uppercase tracking-[0.2em] text-[#5DFFFF] font-semibold mb-2">
-              Featured Project
+              Content Writing
             </span>
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Example Project
+              start to finish
             </h3>
 
             {/* Description Box with /Rectangle_10.png Background */}
@@ -119,31 +122,32 @@ const ProjectsPage = () => {
                 className="object-cover -z-10"
               />
               <p className="text-white/80 text-base leading-relaxed relative z-10">
-                A web app for visualizing personalized Spotify data. View your
-                top artists, top tracks, recently played tracks, and detailed
-                audio information about each track. Create and save new
-                playlists of recommended tracks based on your existing playlists
-                and more.
+                How I Go From Blank Page to Finished Post. <br /> <br />
+                Some days I stare at a blank page for 10 minutes… Other days, I
+                write like a storm, make mistakes, rewrite, drink too much tea.
+                But step by step, the post gets done. <br /> <br />
+                So, writers, what part of writing is hardest for you?
               </p>
             </div>
 
             <div className="flex items-center gap-6 mt-6 text-xl text-white">
               <a
-                href="#"
-                aria-label="GitHub"
+                href="https://www.facebook.com/begumswapnasayma"
+                aria-label="Facebook"
                 className="hover:text-[#5DFFFF] transition-colors"
               >
-                <FaGithub />
+                <FaFacebook />
               </a>
               <a
-                href="#"
+                href="https://x.com/swapnabegum_"
+                target="_blank"
                 aria-label="Twitter"
                 className="hover:text-[#5DFFFF] transition-colors"
               >
                 <FaTwitter />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/feed/update/urn:li:activity:7386989725968027648/"
                 aria-label="LinkedIn"
                 className="hover:text-[#5DFFFF] transition-colors"
               >
@@ -168,7 +172,7 @@ const ProjectsPage = () => {
               {/* Main project screenshot extending over bottom-left corner */}
               <div className="absolute bottom-0 left-0 w-[96%] h-[94%] rounded-xl overflow-hidden border border-white/15 shadow-2xl">
                 <Image
-                  src="/chris-ried-ieic5Tq8YMk-unsplash.png"
+                  src="/projectImage2.jpg"
                   alt="Featured Project"
                   fill
                   className="object-cover"
@@ -182,10 +186,10 @@ const ProjectsPage = () => {
         <div className="relative flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-7/12 z-20 flex flex-col items-start">
             <span className="text-xs uppercase tracking-[0.2em] text-[#5DFFFF] font-semibold mb-2">
-              Featured Project
+              SEO
             </span>
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Example Project
+              SEO Keyword Research
             </h3>
 
             <div className="relative w-full lg:w-[540px] p-8 rounded-xl overflow-hidden border border-white/10 shadow-2xl">
@@ -196,31 +200,30 @@ const ProjectsPage = () => {
                 className="object-cover -z-10"
               />
               <p className="text-white/80 text-base leading-relaxed relative z-10">
-                A web app for visualizing personalized Spotify data. View your
-                top artists, top tracks, recently played tracks, and detailed
-                audio information about each track. Create and save new
-                playlists of recommended tracks based on your existing playlists
-                and more.
+                This is a keyword research sheet for my client of his Outdoor
+                Homedecore Niche. He asked me for the best SEO keywords for
+                Google ranking.
               </p>
             </div>
 
             <div className="flex items-center gap-6 mt-6 text-xl text-white">
               <a
-                href="#"
-                aria-label="GitHub"
+                href="https://www.facebook.com/begumswapnasayma"
+                aria-label="Facebook"
                 className="hover:text-[#5DFFFF] transition-colors"
               >
-                <FaGithub />
+                <FaFacebook />
               </a>
               <a
-                href="#"
+                href="https://x.com/swapnabegum_"
+                target="_blank"
                 aria-label="Twitter"
                 className="hover:text-[#5DFFFF] transition-colors"
               >
                 <FaTwitter />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/swapna-begum-4b51a8230/overlay/1635554774451/single-media-viewer/?profileId=ACoAADmxbskBC_r9mK8HP1vQ0TWrgY2vlMkzbEg"
                 aria-label="LinkedIn"
                 className="hover:text-[#5DFFFF] transition-colors"
               >
@@ -242,7 +245,7 @@ const ProjectsPage = () => {
 
               <div className="absolute bottom-0 right-0 w-[96%] h-[94%] rounded-xl overflow-hidden border border-white/15 shadow-2xl">
                 <Image
-                  src="/austin-distel-wD1LRb9OeEo-unsplash.png"
+                  src="/1703393239156.png"
                   alt="Featured Project"
                   fill
                   className="object-cover"
@@ -256,10 +259,10 @@ const ProjectsPage = () => {
         <div className="relative flex flex-col lg:flex-row-reverse items-center">
           <div className="w-full lg:w-7/12 z-20 flex flex-col items-start lg:items-end text-left lg:text-right">
             <span className="text-xs uppercase tracking-[0.2em] text-[#5DFFFF] font-semibold mb-2">
-              Featured Project
+              website audit
             </span>
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Example Project
+              Website Audit Report and <br /> Work Plan
             </h3>
 
             <div className="relative w-full lg:w-[540px] p-8 rounded-xl overflow-hidden border border-white/10 shadow-2xl text-left">
@@ -270,31 +273,34 @@ const ProjectsPage = () => {
                 className="object-cover -z-10"
               />
               <p className="text-white/80 text-base leading-relaxed relative z-10">
-                A web app for visualizing personalized Spotify data. View your
-                top artists, top tracks, recently played tracks, and detailed
-                audio information about each track. Create and save new
-                playlists of recommended tracks based on your existing playlists
-                and more.
+                A (Website Audit Report and Work Plan) is important for several
+                reasons before starting any website-related work, whether its
+                redesigning, optimizing, or launching a new online platform.
+                Website Audit Report serves as a foundational step in any
+                website-related project. It provides valuable insights, sets
+                clear objectives, and ensures that resources are utilized
+                effectively to achieve the desired outcomes.
               </p>
             </div>
 
             <div className="flex items-center gap-6 mt-6 text-xl text-white">
               <a
-                href="#"
-                aria-label="GitHub"
+                href="https://www.facebook.com/begumswapnasayma"
+                aria-label="Facebook"
                 className="hover:text-[#5DFFFF] transition-colors"
               >
-                <FaGithub />
+                <FaFacebook />
               </a>
               <a
-                href="#"
+                href="https://x.com/swapnabegum_"
+                target="_blank"
                 aria-label="Twitter"
                 className="hover:text-[#5DFFFF] transition-colors"
               >
                 <FaTwitter />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/swapna-begum-4b51a8230/overlay/1635554773862/single-media-viewer/?profileId=ACoAADmxbskBC_r9mK8HP1vQ0TWrgY2vlMkzbEg"
                 aria-label="LinkedIn"
                 className="hover:text-[#5DFFFF] transition-colors"
               >
@@ -316,7 +322,7 @@ const ProjectsPage = () => {
 
               <div className="absolute bottom-0 left-0 w-[96%] h-[94%] rounded-xl overflow-hidden border border-white/15 shadow-2xl">
                 <Image
-                  src="/Gemini_Generated_Image_ux1gtlux1gtlux1g.png"
+                  src="/1703395454601.png"
                   alt="Featured Project"
                   fill
                   className="object-cover"

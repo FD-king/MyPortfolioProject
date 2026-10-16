@@ -9,7 +9,7 @@ export default function ContactForm() {
     e.preventDefault();
 
     const formData = new FormData(e.currentTarget);
-    formData.append("access_key", "1a6480a5-e0cd-443d-80ae-d27a4003cb37");
+    formData.append("access_key", "1a6480a5-e0cd-443d-80ae-d27a4003cb37"); //mail connect api
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

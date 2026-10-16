@@ -15,20 +15,24 @@ const AboutSectionPage = () => {
       </h2>
 
       {/* About Description Paragraph */}
-      <p className="body-copy max-w-[940px] mb-20 text-center text-white/80 text-lg leading-[1.8] font-normal px-4">
-        I’m a junior front-end developer looking for a new role in an exciting
-        company. I focus on writing accessible HTML, using modern CSS practices
-        and writing clean JavaScript. When writing JavaScript code, I mostly use
-        React, but I can adapt to whatever tools are required. I’m based in
-        London, UK, but I’m happy working remotely and have experience in remote
-        teams. When I’m not coding, you’ll find me outdoors. I love being out in
-        nature whether that’s going for a walk, run or cycling. I’d love you to
-        check out my work.
+      <p className="body-copy max-w-[940px] mb-6 text-center text-white/80 text-lg leading-[1.8] font-normal px-4">
+        I’ve worked with local and international clients, boosting visibility,
+        traffic, and conversions across industries. My approach is strategic,
+        transparent, and results-focused — perfect for brands that want to
+        dominate their niche.
+      </p>
+
+      {/* Left-aligned bullet list block */}
+      <p className="max-w-[940px] w-full mb-20 text-white/80 text-lg leading-[1.8] font-normal px-4 text-left mx-auto">
+        {">"} Craft data-driven SEO strategies (Local & International) <br />
+        {">"} Optimize websites for search engines & users <br />
+        {">"} Write engaging, SEO-friendly content that gets noticed <br />
+        {">"} Analyze trends & leverage AI (LLMs) to stay ahead of Google
+        updates.
       </p>
 
       {/* Skills Visual matching the complex design from the image */}
       <div className="w-full max-w-[895px] flex justify-center items-center mt-12 relative">
-        {/* Complex skills visual graphic from image_2.png */}
         <Image
           src="/skills-orbit.svg"
           alt="Skills and technologies visual"

@@ -22,14 +22,14 @@ const ContactSectionPage = () => {
             Drop me a message
           </h3>
           <p className="body-copy text-base md:text-lg mb-10 max-w-[480px]">
-            A web app for visualizing personalized Spotify data. View your top
-            artists, top tracks, recently played tracks, and detailed audio
-            information about each track.
+            Let’s Connect! If you’re ready to take your business to the next
+            level with expert SEO and content marketing, I’d love to
+            collaborate.
           </p>
 
           <div className="flex flex-col gap-6 text-white/90">
             <a
-              href="tel:+8801700000000"
+              href="tel:+880 1333-798690"
               className="flex items-center gap-4 hover:text-[#5DFFFF] transition-colors"
             >
               <Image
@@ -38,11 +38,11 @@ const ContactSectionPage = () => {
                 width={35}
                 height={35}
               />
-              <span className="text-base">+880 1XXXXXXXXX</span>
+              <span className="text-base">+880 1333-798690</span>
             </a>
 
             <a
-              href="mailto:mymail@gmail.com"
+              href="mailto:swapnaseoexpert@gmail.com"
               target="_blank"
               className="flex items-center gap-4 hover:text-[#5DFFFF] transition-colors"
             >
@@ -52,7 +52,7 @@ const ContactSectionPage = () => {
                 width={35}
                 height={35}
               />
-              <span className="text-base">mail@gmail.com</span>
+              <span className="text-base">swapnaseoexpert@gmail.com</span>
             </a>
 
             <div className="flex items-center gap-4 text-white/90">

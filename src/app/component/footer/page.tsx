@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const FooterPage = () => {
   return (
@@ -12,28 +12,29 @@ const FooterPage = () => {
         {/* Copyright Text */}
         <div>
           <p className="text-sm md:text-base font-light tracking-wide">
-            2024 - Soni kumari, All rights reserved
+            2025 - Swapna Begum, All rights reserved
           </p>
         </div>
 
         {/* Social Icons */}
         <div className="flex items-center gap-6 text-xl text-white">
           <a
-            href="#"
-            aria-label="GitHub"
-            className="hover:text-[#5DFFFF] transition-colors duration-200"
+            href="https://www.facebook.com/begumswapnasayma"
+            aria-label="Facebook"
+            className="hover:text-[#5DFFFF] transition-colors"
           >
-            <FaGithub />
+            <FaFacebook />
           </a>
           <a
-            href="#"
+            href="https://x.com/swapnabegum_"
+            target="_blank"
             aria-label="Twitter"
-            className="hover:text-[#5DFFFF] transition-colors duration-200"
+            className="hover:text-[#5DFFFF] transition-colors"
           >
             <FaTwitter />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/swapna-begum-4b51a8230/"
             aria-label="LinkedIn"
             className="hover:text-[#5DFFFF] transition-colors duration-200"
           >
