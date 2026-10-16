@@ -3,9 +3,12 @@ import React from "react";
 
 const HeroSectionPage = () => {
   return (
-    <section className="relative w-full px-4 sm:px-6 md:px-10 pt-4 pb-12 flex justify-center">
+    <section
+      id="heroSection"
+      className="relative w-full px-4 sm:px-6 md:px-10 pt-4 pb-12 flex justify-center"
+    >
       {/* Main Glass Shell Container */}
-      <div className="relative w-full max-w-348.75 min-h-170 md:min-h-187.5 rounded-[25px] rounded-b-none border border-white/20 overflow-hidden shadow-2xl flex flex-col justify-between">
+      <div className="relative w-full max-w-[1400px] min-h-[680px] md:min-h-[750px] rounded-[25px] rounded-b-none border border-white/20 overflow-hidden shadow-2xl flex flex-col justify-between">
         <div className="absolute inset-0 z-0">
           <Image
             src="/Rectangle_4.png"
@@ -18,18 +21,18 @@ const HeroSectionPage = () => {
         </div>
 
         {/* Content Layer */}
-        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 items-end min-h-150 lg:min-h-170 px-8 sm:px-12 md:px-16 pt-24 md:pt-32 pb-0">
+        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 items-end min-h-[600px] lg:min-h-[680px] px-8 sm:px-12 md:px-16 pt-24 md:pt-32 pb-0">
           {/* Text Content */}
-          <div className="lg:col-span-7 flex flex-col items-start pb-12 md:pb-20 max-w-155">
+          <div className="lg:col-span-7 flex flex-col items-start pb-12 md:pb-20 max-w-[620px]">
             <h1 className="text-[clamp(3rem,6vw,5.5rem)] font-bold text-white tracking-tight leading-[1.05] mb-3">
               Hi, I’m Anurag
             </h1>
 
-            <h2 className="text-[clamp(1.75rem,3.5vw,3.25rem)] font-semibold leading-tight mb-6 bg-linear-to-r from-[#5DFFFF] via-[#9E65E1] to-[#AE0CA7] bg-clip-text text-transparent">
+            <h2 className="text-[clamp(1.75rem,3.5vw,3.25rem)] font-semibold leading-tight mb-6 bg-gradient-to-r from-[#5DFFFF] via-[#9E65E1] to-[#AE0CA7] bg-clip-text text-transparent">
               Front-End Developer.
             </h2>
 
-            <p className="text-white/80 text-base sm:text-lg leading-[1.65] font-normal mb-8 max-w-140">
+            <p className="text-white/80 text-base sm:text-lg leading-[1.65] font-normal mb-8 max-w-[560px]">
               A self-taught front-end developer with over 2 months of
               experience, I build responsive and user-friendly websites & app. I
               focus on clean code and efficient design, ensuring seamless
@@ -38,7 +41,7 @@ const HeroSectionPage = () => {
             </p>
 
             <a href="#contactSection">
-              <button className="px-8 py-3 rounded-full bg-linear-to-r from-[#5DFFFF] via-[#A832C6] to-[#AE0CA7] text-white font-medium text-base shadow-lg hover:opacity-95 transition-all duration-200 cursor-pointer active:scale-95">
+              <button className="px-8 py-3 rounded-full bg-gradient-to-r from-[#5DFFFF] via-[#A832C6] to-[#AE0CA7] text-white font-medium text-base shadow-lg hover:opacity-95 transition-all duration-200 cursor-pointer active:scale-95">
                 Contact
               </button>
             </a>

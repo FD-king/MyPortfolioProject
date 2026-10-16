@@ -1,19 +1,25 @@
 import Image from "next/image";
+import React from "react";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const ProjectsPage = () => {
   return (
-    <section className="relative w-full max-w-360 mx-auto px-6 md:px-16 lg:px-24 py-24 md:py-32 flex flex-col items-center">
+    <section
+      id="projectsSection"
+      className="relative w-full max-w-[1440px] mx-auto px-6 md:px-16 lg:px-24 py-24 md:py-32 flex flex-col items-center"
+    >
       {/* Section Header */}
       <div className="text-center mb-24">
-        <h2 className="section-title mb-4">Recent Work</h2>
+        <h2 className="section-title mb-4 bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] bg-clip-text text-transparent text-5xl md:text-[5.5rem] font-semibold tracking-tight leading-[1.05]">
+          Recent Work
+        </h2>
         <p className="body-copy">
           A collection of projects I&apos;ve worked on.
         </p>
       </div>
 
       {/* Projects Container */}
-      <div className="w-full max-w-300 flex flex-col gap-32">
+      <div className="w-full max-w-[1200px] flex flex-col gap-32">
         {/* Project 1: Text Left, Image Right */}
         <div className="relative flex flex-col lg:flex-row items-center">
           {/* Left Content */}
@@ -25,7 +31,7 @@ const ProjectsPage = () => {
               Example Project
             </h3>
 
-            {/* Description Box with /Rectangle_10.png Background (Overlapping Image) */}
+            {/* Description Box with /Rectangle_10.1.png Background (Overlapping Image) */}
             <div className="relative w-full lg:w-[540px] p-8 rounded-xl overflow-hidden border border-white/10 shadow-2xl">
               <Image
                 src="/Rectangle_10.1.png"
@@ -182,7 +188,7 @@ const ProjectsPage = () => {
               Example Project
             </h3>
 
-            <div className="relative w-full lg:w-135 p-8 rounded-xl overflow-hidden border border-white/10 shadow-2xl">
+            <div className="relative w-full lg:w-[540px] p-8 rounded-xl overflow-hidden border border-white/10 shadow-2xl">
               <Image
                 src="/Rectangle_10.1.png"
                 alt="Card background"
@@ -224,7 +230,7 @@ const ProjectsPage = () => {
           </div>
 
           <div className="w-full lg:w-7/12 lg:-ml-28 mt-8 lg:mt-0 z-0 relative">
-            <div className="relative w-full aspect-16/10">
+            <div className="relative w-full aspect-[16/10]">
               <div className="absolute top-0 left-0 w-[95%] h-[92%] rounded-2xl overflow-hidden border border-white/10 shadow-xl -z-10">
                 <Image
                   src="/Group_1940.png"
@@ -256,7 +262,7 @@ const ProjectsPage = () => {
               Example Project
             </h3>
 
-            <div className="relative w-full lg:w-135 p-8 rounded-xl overflow-hidden border border-white/10 shadow-2xl text-left">
+            <div className="relative w-full lg:w-[540px] p-8 rounded-xl overflow-hidden border border-white/10 shadow-2xl text-left">
               <Image
                 src="/Rectangle_10.png"
                 alt="Card background"
@@ -298,7 +304,7 @@ const ProjectsPage = () => {
           </div>
 
           <div className="w-full lg:w-7/12 lg:-mr-28 mt-8 lg:mt-0 z-0 relative">
-            <div className="relative w-full aspect-16/10">
+            <div className="relative w-full aspect-[16/10]">
               <div className="absolute top-0 right-0 w-[95%] h-[92%] rounded-2xl overflow-hidden border border-white/10 shadow-xl -z-10">
                 <Image
                   src="/Group_1940.png"
